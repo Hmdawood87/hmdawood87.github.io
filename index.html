@@ -3,63 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <!-- Bootstrap CSS -->
+    <title>Muhammad Dawood Tahir - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">My Portfolio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+    <header class="bg-dark text-white text-center py-5">
+        <h1>Muhammad Dawood Tahir</h1>
+        <p>Full Stack Developer</p>
+        <a href="mailto:hmdawood49@gmail.com" class="btn btn-primary">Contact Me</a>
+    </header>
+
+    <section id="about" class="container py-5">
+        <h2>About Me</h2>
+        <p>
+            I am an experienced full-stack web developer with 5 years of expertise in creating dynamic and interactive applications.
+            Proficient in technologies including React, Angular, Node.js, and Laravel, I specialize in delivering high-quality
+            solutions tailored to meet client needs. I am passionate about continuous learning and adapting to new technologies.
+        </p>
+    </section>
+
+    <section id="experience" class="bg-light py-5">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <div>
+                <h4>Senior Software Engineer at FEEDNI</h4>
+                <p>Apr '21 — Sep '24 | United Arab Emirates</p>
+                <ul>
+                    <li>Led a remote team specializing in MERN and React Native development.</li>
+                    <li>Implemented advanced features like video calling and real-time chat.</li>
+                    <li>Managed project timelines and conducted code reviews.</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Full Stack Engineer at TechMateTech LLC</h4>
+                <p>Mar '20 — May '21 | Lahore, Pakistan</p>
+                <ul>
+                    <li>Developed Property 360, a SaaS property management application.</li>
+                    <li>Enhanced application security, scalability, and client satisfaction.</li>
                 </ul>
             </div>
         </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <header class="text-center bg-primary text-white py-5">
-        <h1>Welcome to My Portfolio</h1>
-        <p>I'm a [Your Profession]</p>
-    </header>
-
-    <!-- About Section -->
-    <section id="about" class="container py-5">
-        <h2>About Me</h2>
-        <p>[Write a brief description about yourself.]</p>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="container py-5">
-        <h2>Projects</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="assets/images/project1.jpg" class="card-img-top" alt="Project 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Project 1</h5>
-                        <p class="card-text">Description of Project 1.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section id="skills" class="container py-5">
+        <h2>Skills</h2>
+        <ul class="row">
+            <li class="col-md-4">JavaScript, Python, PHP</li>
+            <li class="col-md-4">React, Angular, Laravel</li>
+            <li class="col-md-4">MongoDB, MySQL, PostgreSQL</li>
+        </ul>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="bg-light py-5">
-        <div class="container">
+    <section id="contact" class="bg-dark text-white py-5">
+        <div class="container text-center">
             <h2>Contact</h2>
-            <p>Email: [Your Email]</p>
+            <p>Email: <a href="mailto:hmdawood49@gmail.com" class="text-primary">hmdawood49@gmail.com</a></p>
+            <p>Phone: <a href="tel:+923201674756" class="text-primary">+92 320 1674756</a></p>
+            <p><a href="https://www.linkedin.com/in/muhammad-dawood-tahir-0b2341171" target="_blank" class="text-primary">LinkedIn</a></p>
         </div>
     </section>
 
